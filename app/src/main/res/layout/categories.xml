@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <!-- Horizontal ScrollView starts here -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="38dp">
+
+        <!-- Inside Horizontal ScrollView, use GridLayout with 3 columns -->
+        <GridLayout
+            android:id="@+id/l001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:padding="10dp"
+            android:layout_gravity="center">
+
+            <!-- Item 1 -->
+            <LinearLayout
+                android:id="@+id/i1"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Notes"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aa"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book1" />
+            </LinearLayout>
+
+            <!-- Item 2 -->
+            <LinearLayout
+                android:id="@+id/i2"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Books"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a1"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+
+            <!-- Item 3 -->
+            <LinearLayout
+                android:id="@+id/i3"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Guides"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a3"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+
+            <!-- Repeat similar blocks for other items -->
+            <!-- Item 4 -->
+            <LinearLayout
+                android:id="@+id/i4"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Pen\npencil"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a4"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+
+            <!-- Add more items as needed -->
+            <LinearLayout
+                android:id="@+id/i5"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Stationery"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a5"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/i6"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Paper"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a6"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/i7"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" Electroic"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a7"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/i8"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Office\n File"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a8"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/i9"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_rectangle_background"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Key\nChain"
+                    android:textColor="#5D03EF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/a9"
+                    android:layout_width="89dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/book2" />
+            </LinearLayout>
+
+
+
+
+
+
+        </GridLayout>
+
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

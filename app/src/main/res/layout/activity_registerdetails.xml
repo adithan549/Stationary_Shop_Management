@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Registerdetails"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration  Details"
+            android:gravity="center"
+            android:textColor="#0A0DAC"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:padding="12dp"
+            android:id="@+id/email"
+            android:textColor="#333333"
+            android:textColorHint="#999999"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l4"
+        android:layout_below="@+id/l3"
+        android:paddingTop="30dp"
+        android:paddingLeft="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l5"
+            android:paddingLeft="120dp"
+            >
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="137dp"
+                android:layout_height="60dp"
+                android:text="Delete"
+                android:paddingRight="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/l4"
+        >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:paddingTop="20dp"
+        android:layout_below="@+id/l1"
+    android:id="@+id/recycerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

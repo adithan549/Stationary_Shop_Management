@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adminorderdetails"
+    android:background="#CBDDC8">
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:background="#24DC7C">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#170202"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/animation"
+        android:layout_below="@id/text"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="180dp"
+            app:lottie_rawRes="@raw/aboutus"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l2"
+        android:layout_below="@id/animation"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+        "
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l2"
+        android:paddingTop="10dp"
+        android:id="@+id/l3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="Since  last 25 year we are doing a Forming Products.The all products is quality Products"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l3"
+        android:paddingTop="10dp"
+        android:id="@+id/l5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="The Product Will be alwayes Good ,and Best"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l5"
+        android:paddingTop="10dp"
+        android:id="@+id/l7"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="You can Make use this application to oredr tha product and ,you will get tha product on time."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

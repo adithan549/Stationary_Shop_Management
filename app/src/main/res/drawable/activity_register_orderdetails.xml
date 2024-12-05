@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registerdetails"
+    android:background="#ECB5B5">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="#46CD72">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Order Details"
+            android:textColor="#0A0DAC"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp">
+        <EditText
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l4"
+        android:layout_below="@+id/l3"
+        android:paddingTop="30dp"
+        android:paddingLeft="50dp">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="137dp"
+            android:layout_height="60dp"
+            android:text="Update" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l5"
+            android:paddingLeft="120dp"
+            >
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="137dp"
+                android:layout_height="60dp"
+                android:text="Delete"
+                android:paddingRight="20dp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/l4">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l1"
+                android:paddingTop="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

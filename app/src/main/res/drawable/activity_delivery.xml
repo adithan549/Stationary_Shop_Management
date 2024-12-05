@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adminorderdetails"
+    android:background="#EFB691">
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:background="#0DCDC8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Delivery Details"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#170202"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/animation"
+        android:layout_below="@id/text"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="180dp"
+            app:lottie_rawRes="@raw/deliveryy"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l2"
+        android:layout_below="@id/animation"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivey Days:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+"
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l2"
+        android:paddingTop="10dp"
+        android:id="@+id/l3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="The Delivery  days will be  bassed on
+  product types."
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l4"
+        android:layout_below="@id/l3"
+        android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivey Days for :Cereals"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#E11010"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l4"
+        android:paddingTop="10dp"
+        android:id="@+id/l5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="The Delivery  days will be minimum 3 days and maximum 5 days for
+  this product."
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l6"
+        android:layout_below="@id/l5"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivey Days for :Vegetables"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#C210E1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l6"
+        android:paddingTop="10dp"
+        android:id="@+id/l7"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="The Delivery  days will be minimum 1 days and maximum 2 days for
+  this product."
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l8"
+        android:layout_below="@id/l7"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivey Days for :Spinach"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#1345DC"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l8"
+        android:paddingTop="10dp"
+        android:id="@+id/l9"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="The Delivery  days will be minimum 1 days and maximum 3 days for
+  this product."
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l10"
+        android:layout_below="@id/l9"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivey Place:"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#050D23"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l10"
+        android:paddingTop="10dp"
+        android:id="@+id/l11"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="60dp"
+        android:text="212,Thachampattu,Tiruvannamalai(Distruct),Tamil Nadu."
+        android:textSize="20dp">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l12"
+        android:layout_below="@id/l11"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivey On Customer Place:Process GoingOn"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#050D23"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

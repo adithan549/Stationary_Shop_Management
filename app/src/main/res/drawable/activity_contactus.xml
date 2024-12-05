@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Orderdetails"
+    android:background="#D3DAD1">
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:background="#18CCBD">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Us"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#170202"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/animation"
+        android:layout_below="@id/text"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="180dp"
+            app:lottie_rawRes="@raw/contactuss"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/animation"
+        android:id="@+id/s1">
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animation"
+        android:id="@+id/l1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#250303"
+            android:text="Email"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:textStyle="italic|bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l1"
+        android:paddingTop="10dp"
+        android:id="@+id/l2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="arockiasamy@gmail.com"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#1C14E3">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/im1"
+            android:paddingEnd="0dp"
+            android:src="@drawable/email_24"
+            android:padding="2dp"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:id="@+id/l3"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#250303"
+            android:text="Telephone Number"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:textStyle="italic|bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l3"
+        android:paddingTop="10dp"
+        android:id="@+id/l4"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="+70-9738730239,  9791769384"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#1C14E3">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/im2"
+            android:paddingEnd="0dp"
+            android:src="@drawable/phone24"
+            android:padding="2dp"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l4"
+        android:id="@+id/l5"
+        android:paddingTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#250303"
+            android:text="Address"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:textStyle="italic|bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l5"
+        android:paddingTop="10dp"
+        android:id="@+id/l6"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="60dp"
+            android:text="212,Lurthu Nager,Thalaiyampallam(Village),Thiruvannamalai(Distrct),Tamil Nadu,Pincode(606-753)"
+            android:textColor="#1C14E3"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l7"
+        android:layout_below="@id/l6"
+        android:paddingTop="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Send Message "
+            android:textStyle="bold"
+            android:textColor="#61050D"
+            android:textSize="20dp"
+            android:paddingLeft="20dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pnamelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l7"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Name"
+            android:textColorHint="#C65D0B"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemquantitylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pnamelayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/pemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:fontFamily="sans-serif-black"
+            android:hint="Email"
+            android:padding="15sp"
+            android:text=""
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="#C65D0B"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itempricelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemquantitylayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/pmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Message"
+            android:textColorHint="#C65D0B"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/sendme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Send Message"
+                android:backgroundTint="#7E0A78">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

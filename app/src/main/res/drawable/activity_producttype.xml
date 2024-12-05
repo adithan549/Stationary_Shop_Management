@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Producttype"
+    android:background="#8ADAD1">
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#35EC5D"
+        android:padding="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Products"
+            android:textAlignment="center"
+            android:textColor="#E61F1F"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/imagemenu1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/menu_24"
+
+            app:tint="@color/colorwhite"
+            app:layout_constraintBottom_toBottomOf="@+id/texthello"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/texthello"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@id/text"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/srch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:drawableEnd="@drawable/srch"
+            android:background="@drawable/border"
+            android:hint="Search for Products..."
+            android:textColor="#eb6cdc"
+            android:textColorHint="#676a6e"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Books-Notes"
+                    android:background="@color/black"
+                    android:textColor="#0A21E6"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book1" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book2" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t2"
+                android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+                android:background="#F3E1A9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ClassMate Notebook\nunruled 172pages\n240mm*180mm"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="ClassMate Notebook\nRuled 140pages\n297mm*210mm"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:paddingTop="50dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book3" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="152dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book4" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t3"
+                android:background="#F3E1A9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ClassMate Notebook\nUnruled 140pages\n297mm*210mm"
+                    android:paddingLeft="5dp"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="ClassMate Notebook\nRuled 172pages\n240mm*180mm"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book5" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book6" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t4"
+                android:background="#F3E1A9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Classmate Notebook\nSingle Line 120 Pages\n240 mm *180 mm"
+                    android:paddingLeft="5dp"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="Spiral Notebook 180Pages\n24.0cm x 18.0cm"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book7" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c8"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="166dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book8" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t5"
+                android:background="#F3E1A9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOY pratical\nNotebook 22*28cm\n 176 pages"
+                    android:paddingLeft="5dp"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="Classmate Itc Practical Notebook -Chemistry"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c9"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book9" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c10"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="166dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/book10"/>
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t7"
+                android:background="#F3E1A9">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Classmate Notebook\n267 X 203mm\n160 Pages,\nSingle Line,Binding"
+                    android:paddingLeft="5dp"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="DASM UNITED Set of 2 Combo Pack Anime Fans Series Printed Stationary A5 Notebook Diary Planner Organizer Journal 100 GSM Unruled 160 Pages each Paperback wiro binding Notepad 14x21cm Size - 35"
+                    android:textColor="#0A21E6"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Pen Pencil"
+                    android:textColor="#ED21C1"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c11"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen1" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c12"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen2" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t9"
+                android:background="#E5A9F3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="BRUSTRO-Mechanical\n Pencil-20 leads units \nTip size- 0.5 mm"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="THE CUBBY CART Infinty Pencil, Inkless Pencil, Everlasting"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c13"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen4" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c14"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i14"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen3" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t11"
+                android:background="#E5A9F3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hero Pen Ink Pen"
+                    android:paddingLeft="5dp"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:text="Reynolds LUMINO GEL Pen SET - 50 PENS "
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c17"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i17"
+                        android:layout_width="145dp"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen5" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c18"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen6" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t15"
+                android:background="#E5A9F3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pentonic 0.7mm \nBall Point "
+                    android:paddingLeft="5dp"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="50dp"
+                    android:text="Hauser XO 0.7mm Ball Pen Box Pack"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c15"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i15"
+                        android:layout_width="145dp"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pen7" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c16"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i16"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pencil2" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t14"
+                android:background="#E5A9F3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parker Classic Matte\nBlack Gold Trim \nBall Pen"
+                    android:paddingLeft="5dp"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30dp"
+                    android:text="Nataraj 621 Pencils-Pack Of 10|Multicolor"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c19"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i19"
+                        android:layout_width="155dp"
+                        android:layout_height="149dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pencil3" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c20"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i21"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/pencil4" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t17"
+                android:background="#E5A9F3">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apsara Absolute\nExtra Dark Pencils\nPack Of 10|Black"
+                    android:paddingLeft="5dp"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="40dp"
+                    android:text="Camlin Kokuyo Supreme Writing And Drawing Pencil, Pack Of 10, Black"
+                    android:textColor="#E61F1F"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gifts"
+                    android:textColor="#041B03"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c21"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift1" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c22"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift2" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t19"
+                android:background="#88E362">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Artistic Gifts 3D \nIllusion Personalized \nLED Table Lamp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text=" CPENSUS Moving Sand Art Picture Glass Liquid Painting 3D Natural Landscape showpieces for Home Decor"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c23"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift3" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c24"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift4" />
+
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t21"
+                android:background="#88E362">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ORORANY Forever Rose Gift"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="CraftVatika Golden\n Handcrafted Palm Buddha Idol for Home,Office and Gifts"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c25"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift5" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c27"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/i28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:src="@drawable/gift6" />
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t29"
+                android:background="#88E362">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Panda Night Light for Kids\nRechargeable Silicone \nLED Lamp 7-Color Changing\nPerfect Room Decor"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:text="INTERNATIONAL GIFT® Silver Laxmi Ganesh Sarswati Idol Statue Oxidized Finish with Red Velvet Box Packing with Beautiful Carry Bag (14 cm X 25 cm X 5 cm)"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+
+</LinearLayout>

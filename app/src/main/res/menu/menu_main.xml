@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuhome1"
+        android:icon="@drawable/home_24"
+        android:title="Home"/>
+    <item android:id="@+id/product1"
+        android:icon="@drawable/product"
+        android:title="Products"/>
+    <item android:id="@+id/about1"
+        android:icon="@drawable/home_24"
+        android:title="About Us"/>
+    <item android:id="@+id/contact1"
+        android:icon="@drawable/contact_phone_24"
+        android:title="Contact"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/account_circle_24"
+        android:title="Logout"/>
+
+
+</menu>

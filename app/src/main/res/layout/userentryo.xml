@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="16dp"
+    android:layout_marginTop="16dp"
+    android:backgroundTint="#efefef">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:paddingLeft="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Name:"
+            android:textColor="@color/color_link"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+            <TextView
+                android:id="@+id/txtpname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Pname:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtpquantity1"
+                android:text="Pack-Quantity:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtpquantity"
+                android:text="pquantity:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtprice1"
+                android:text="Price:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtprice"
+                android:text="pprice:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtequantity1"
+                android:text="Quantity:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtequantity"
+                android:text="equantity:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtmobile1"
+                android:text="Mobile:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtmobile"
+                android:text="mobile:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtemail1"
+                android:text="Email:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtemail"
+                android:text="email:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtaddress1"
+                android:text="Address:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/color_link"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtaddress"
+                android:text="address:"
+                android:textSize="25dp"
+                android:textStyle=""
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

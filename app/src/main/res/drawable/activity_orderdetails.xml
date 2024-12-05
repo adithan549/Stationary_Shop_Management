@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Orderdetails"
+    android:background="#BFE6B4">
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:background="#18CCBD">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Order Now"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#170202"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/animation"
+        android:layout_below="@id/text"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="180dp"
+            app:lottie_rawRes="@raw/orderhere"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/animation">
+
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T1"
+                android:paddingLeft="20dp"
+                android:text="Product Name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pnamelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animation"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Product Name"
+            android:textColorHint="#134BBD"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="#CC0E0E"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt2"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T2"
+                android:paddingLeft="20dp"
+                android:text="Product Quantity"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemquantitylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pnamelayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Product Quantity"
+            android:textColorHint="#134BBD"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="#CC0E0E"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt3"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T3"
+                android:paddingLeft="20dp"
+                android:text="Product Price"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/itempricelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemquantitylayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/pprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Product Price"
+            android:textColorHint="#134BBD"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="#CC0E0E"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt4"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T4"
+                android:paddingLeft="20dp"
+                android:text="Extra Quantity"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/itemtotalpricelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itempricelayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/border"
+            android:hint="Product Price"
+            android:textAlignment="center" />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt9"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T7"
+                android:paddingLeft="20dp"
+                android:text="Enter Mobile Number"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/itempholayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemtotalpricelayout"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/pmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@drawable/border"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:textColorHint="#134BBD"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textColor="#CC0E0E"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt5"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T5"
+                android:paddingLeft="20dp"
+                android:text="Enter Registered Email"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itememaillayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemtotalpricelayout"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/pemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:background="@drawable/border"
+                android:textSize="20sp"
+                android:padding="15sp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#134BBD"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="italic"
+                android:textColor="#CC0E0E"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tt6"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T6"
+                android:paddingLeft="20dp"
+                android:text="Enter Valid Address"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itemaddresslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemtotalpricelayout"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/paddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:background="@drawable/border"
+                android:textSize="20sp"
+                android:padding="15sp"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:textColorHint="#134BBD"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="italic"
+                android:textColor="#CC0E0E"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ll7"
+        android:layout_below="@id/itememaillayout"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:textSize="20dp"
+            android:text="Submit"
+            android:backgroundTint="#0C31BA"
+
+            />
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

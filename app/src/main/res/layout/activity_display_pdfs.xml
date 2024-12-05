@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_muted_primary"
+    android:padding="10dp">
+
+    <!-- LinearLayout for PDF name, Delete and Download button for each item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- TextView to display the PDF name -->
+        <TextView
+            android:id="@+id/tvPdfName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:text="PDF NAME"
+            android:textSize="14sp" />
+
+        <!-- Button to delete the PDF -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <!-- Button to download the PDF -->
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+
+    <!-- ListView to display PDFs -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="6dp" />
+
+</LinearLayout>

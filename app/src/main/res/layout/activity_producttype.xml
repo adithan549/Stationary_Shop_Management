@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Producttype"
+    android:background="#8ADAD1">
+    <!-- Add vertical in the android:orientation-->
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#35EC5D"
+        android:padding="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Products"
+            android:textAlignment="center"
+            android:textColor="#E61F1F"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:backgroundTint="@color/colordivider"
+                    android:paddingStart="10dp"
+                    android:text="Notes"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+            android:id="@+id/l112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lll"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i1"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/aa"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="ClassMate Notebook unruled 172pages\n240mm*180mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i2"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a1"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="ClassMate Notebook\nRuled 172pages\n240mm*180mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i3"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a3"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="ClassMate Notebook\nUnruled 140pages\n297mm*210mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i4"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a03"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="ClassMate Notebook\nRuled 172pages\n240mm*180mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i5"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a5"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Classmate Notebook\nSingle Line 120 Pages\n240 mm *180 mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i6"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a06"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book6" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Spiral Notebook 180Pages\n24.0cm x 18.0cm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i7"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a7"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book7" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="JOY pratical\nNotebook 22*28cm\n 176 pages"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i8"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a08"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book8" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Classmate Itc Practical Notebook -Chemistry"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i9"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a9"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book9" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Classmate Notebook\n267 X 203mm\n160 Pages,\nSingle Line,Binding"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i10"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a010"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/book10" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="DASM UNITED Set of 2 Combo Pack Anime Unruled 160 Pages  Notepad 14x21cm Size - 35"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colordivider"
+                    android:background="@drawable/border"
+                    android:paddingStart="10dp"
+                    android:textAlignment="center"
+                    android:text="Book-Guides"
+                    android:textColor="#ED21C1"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i29"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a29"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tentamil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Tamil"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i30"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a030"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenenglish" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std English"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i31"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a31"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenmaths" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Maths"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i32"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a032"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenscience" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Science"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i33"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a33"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenss" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Social Science"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i34"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a034"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/suratentamil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Sura 10th Std Tamil Guide (2023-2024)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i35"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a35"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/suratenenglish" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Sura 10th Std English Guide (2023-2024)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i36"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a036"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/suratenmaths" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Sura 10th Std Maths Guide (2023-2024)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i37"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a37"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/suratenscience" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Sura 10th Std Science Guide (2023-2024)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i38"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a038"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/suratensocial" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Sura 10th Std Social Science Guide (2023-2024)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colordivider"
+                    android:background="@drawable/border"
+                    android:paddingStart="10dp"
+                    android:textAlignment="center"
+                    android:text="Pen Pencil"
+                    android:textColor="#ED21C1"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i11"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a11"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="BRUSTRO-Mechanical Pencil-20 leads units Tip size- 0.5 mm"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i12"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a012"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="DASM UNITED Set of 2 Combo Pack Anime Unruled 160 Pages  Notepad 14x21cm Size - 35"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i13"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a13"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Hero Pen Ink Pen"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i14"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a014"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Reynolds LUMINO GEL Pen SET - 50 PENS"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i17"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a17"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Pentonic 0.7mm \nBall Point "
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i18"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a018"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen6" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Hauser XO 0.7mm Ball Pen Box Pack"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i15"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a15"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pen7" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Parker Classic Matte\nBlack Gold Trim \nBall Pen"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i16"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a016"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pencil2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Nataraj 621 Pencils-Pack Of 10|Multicolor"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i19"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a19"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pencil3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Apsara Absolute Extra Dark Pencils Pack Of 12|Black"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i20"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a020"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/pencil4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Camlin Kokuyo Supreme Writing And Drawing Pencil, Pack Of 12, Black"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lll"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:backgroundTint="@color/colordivider"
+                    android:text="Gifts"
+                    android:textAlignment="center"
+                    android:textColor="#041B03"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i22"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a22"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Artistic Gifts 3D Illusion Personalized LED Table Lamp"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i23"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a023"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text=" CPENSUS Moving Sand Art Picture Glass Liquid Painting 3D Natural Landscape showpieces for Home Decor"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i24"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a24"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="ORORANY Forever Rose Gift"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i25"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a025"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text=" CraftVatika Golden  Handcrafted Palm Buddha Idol for Home,Office and Gifts"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i26"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a26"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:text="Panda Night Light for Kids Rechargeable Silicone LED Lamp 7-Color Changing Perfect Room Decor"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/i28"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a028"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/gift6" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="INTERNATIONAL GIFT® Silver Laxmi Ganesh Sarswati Idol Statue Oxidized Finish with Red Velvet Box Packing with Beautiful Carry Bag (14 cm X 25 cm X 5 cm)"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow" />
+
+
+</LinearLayout>

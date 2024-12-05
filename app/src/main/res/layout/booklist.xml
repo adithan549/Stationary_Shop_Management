@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Producttype"
+    android:background="#8ADAD1">
+    <!-- Add vertical in the android:orientation-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/text29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingStart="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colordivider"
+                    android:background="@drawable/border"
+                    android:paddingStart="10dp"
+                    android:textAlignment="center"
+                    android:text="Books"
+                    android:textColor="#ED21C1"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i29"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a29"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tentamil" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Tamil"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i30"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a030"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenenglish" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std English"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i31"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a31"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenmaths" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Maths"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/i32"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a032"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenscience" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Science"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/lll"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/i33"
+                    android:layout_width="184dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/white_rectangle_background"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <ImageView
+                        android:id="@+id/a33"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/tenss" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:padding="10dp"
+                        android:background="@drawable/border"
+                        android:text="Tamil Nadu Textbook For 10th Std Social Science"
+                        android:textColor="#5D03EF"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
